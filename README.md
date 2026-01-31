@@ -24,3 +24,8 @@ Git 操作を実際に試しながら学ぶための検証用リポジトリで�
 ### 01. commit --amend
 - 目的：commit メッセージを修正する
 - やったこと：README を編集
+- 失敗：
+  - commit メッセージを適当に書いた
+- 学んだこと：
+  - push 前なら commit --amend で安全に修正できる
+  - amend は新しい commit を作るのではなく、直前の commit を書き換える
